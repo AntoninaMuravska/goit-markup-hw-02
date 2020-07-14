@@ -1,13 +1,80 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
 .page {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
 }
 
 .web-logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .studio-logo {
   color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contact-nav .link {
+  color: var(--primary-text-color);
+}
+
+.contact-nav .link:hover {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--white-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* Products */
+.product-list .title {
+  color: var(--white-color);
+}
+
+/* Team */
+.team-list .title {
+  color: #212121;
+}
+
+/* Footer */
+
+.join {
+  color: var(--white-color);
 }
 
 /* #757575 цвет основного текста

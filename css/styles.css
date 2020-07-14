@@ -39,7 +39,8 @@
   color: var(--primary-text-color);
 }
 
-.contact-nav .link:hover {
+.contact-nav .link:hover,
+.contact-nav .link:focus {
   color: var(--accent-color);
 }
 

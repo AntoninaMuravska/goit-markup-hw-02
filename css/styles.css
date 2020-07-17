@@ -142,6 +142,7 @@
 
 /* Footer */
 
+/* Address */
 .footer-address {
   background-color: var(--background-color);
   font-style: normal;
@@ -160,6 +161,7 @@
   text-decoration: none;
 }
 
+/* Form */
 .join {
   color: var(--accent-text-color);
   background-color: var(--background-color);
@@ -167,7 +169,7 @@
   text-transform: uppercase;
 }
 
-/* Portfolio */
+/* Portfolio page*/
 
 /* Portfolio filter */
 .portfolio-button {
@@ -211,24 +213,3 @@
   line-height: 1.556;
   letter-spacing: 0.03em;
 }
-
-/* <h1 class="portfolio-title">Примеры работ</h1>
-      <ul class="list">
-        <li>
-          <a href=""  class="item-link">
-            <img src="./images/portfolio/techno.jpg" alt="Технокряк" />
-            <h2 class="item-title">Технокряк</h2>
-            <p class="item-specification">Веб-сайт</p>
-            <p class="item-description"> */
-
-/* #757575 цвет основного текста
-#212121 вторичный цвет текста
-#FFFFFF белый
-#AFB1B8 вторичный цвет фона
-#2196F3 акцент
- */
-
-/* roboto 400 500 700 900
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
- */

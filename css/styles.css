@@ -21,17 +21,7 @@
 }
 
 .list {
-  padding: 0;
-  margin: 0;
   list-style: none;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
 }
 
 /* Page header */
@@ -40,12 +30,6 @@
 } */
 
 /* Main nav */
-
-.header-nav,
-.main-nav {
-  display: flex;
-  align-items: center;
-}
 
 /* Logo */
 .logo {
@@ -79,24 +63,7 @@
   color: var(--accent-color);
 }
 
-.site-nav {
-  display: flex;
-  margin-left: 85px;
-}
-
-/* .site-nav .item {
-  outline: 1px solid tomato;
-} */
-
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -110,27 +77,13 @@
   text-decoration: none;
 }
 
-.contact-nav {
-  display: flex;
-  margin-left: auto;
-}
-
-.contact-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
-
 /* Hero */
 
 .hero {
-  text-align: center;
-
   background-color: var(--primary-text-color);
 }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
-
   color: var(--accent-text-color);
 
   font-weight: 900;
@@ -142,12 +95,6 @@
 }
 
 .btn {
-  display: inline-block;
-  border-radius: 4px;
-  border: none;
-  min-width: 200px;
-  padding: 10px 32px;
-
   background-color: var(--accent-color);
   color: var(--accent-text-color);
 
@@ -163,20 +110,13 @@
 
 /* Section */
 
-.section {
-  padding-bottom: 94px;
-}
-
 .section-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-
   color: var(--title-text-color);
 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
-  text-align: center;
+
   letter-spacing: 0.03em;
 }
 
@@ -191,34 +131,16 @@
 /* Features */
 
 .picture-features {
-  display: block;
-
-  margin-bottom: 30px;
-
   background-color: #ccc;
 }
 .features .title {
-  margin-top: 0;
-  margin-bottom: 10px;
   text-transform: uppercase;
   background-color: #ccc;
 }
 
-.description-features {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 /* Products */
 
-.product-picture {
-  display: block;
-}
-
 .product-list .title {
-  margin-top: 0;
-  margin-bottom: 0;
-
   background-color: var(--primary-text-color);
   color: var(--accent-text-color);
 
@@ -226,11 +148,6 @@
 }
 
 /* Team */
-
-.team-picture {
-  display: block;
-  margin-bottom: 30px;
-}
 
 .team-description,
 .team-list .title {
@@ -240,15 +157,7 @@
 }
 
 .team-list .title {
-  margin-top: 0;
-  margin-bottom: 10px;
-
   font-weight: 500;
-}
-
-.team-description {
-  margin-top: 0;
-  margin-bottom: 16px;
 }
 
 /* Footer */
